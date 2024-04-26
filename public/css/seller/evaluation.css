@@ -1,0 +1,87 @@
+.filter {
+  font-size: 24px;
+  display: inline;
+}
+
+.dropdown {
+  background-color: #ffffff;
+  border-color: #333333;
+  display: inline;
+}
+
+.dropdown-toggle {
+background-color: #333333;
+border-color: #333333;
+color: #ffffff;
+width: 200px;
+font-size: 18px;
+display: inline;
+}
+
+.dropdown-toggle#dropdown-category {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #333333;
+  width: 200px;
+  font-size: 18px;
+  display: inline;
+  }
+
+.dropdown-item {
+font-size: 18px;
+}
+
+/* Button - Show Detail */
+.custom-button2 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #333333;
+  font-size: 18px;
+  height: 40px;
+  width:150px;
+  display: inline;
+  justify-content: center;
+  align-items: center; 
+}
+
+.custom-button2:hover {
+background-color: #333333;
+border-color: #333333;
+color: #ffffff;
+}
+
+/* Content */
+table {
+ font-size: 16px;
+ width: fit-content;
+}
+
+/* banner  */
+.banner {
+    /* width: fit-content; */
+    /* height: 200px; */
+    /* position:relative;
+    border: solid 1px ; */
+    background-image: url(/images/banner/banner1.svg);
+}
+
+.logo {
+  height: 128px;
+  width: 128px;
+}
+
+.gj-mall {
+  font-size: 64px;
+  font-weight: bold;
+  /* -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 0.05px; */
+}
+
+.sub-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.vertical-center {
+  vertical-align: middle !important;
+}

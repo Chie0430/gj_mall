@@ -1,0 +1,60 @@
+/* header part */
+.edit-header {
+    background-color: #0AA873;
+}
+/* header part */
+.modal-title {
+    font-size: 32px;
+}
+
+/* body part */
+label.form-label {
+    font-size: 18px;
+}
+
+label#role {
+  font-size: 18px;
+}
+
+input {
+    font-size: 18px;
+}
+
+/* Register Button  */
+.register-user-button {
+  background-color: #0AA873;
+  font-size: 24px;
+  width:210px;
+  height: 50px;
+  color: white;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.register-user-button:hover,.register-user-button:active {
+  background-color: white;
+  font-size: 24px;
+  width:210px;
+  height: 50px;
+  color: #0AA873;
+  border: 1px solid #0AA873;
+}
+
+/* Edit Cancel Button  */
+.cancel-user-button {
+  background-color: white;
+  font-size: 24px;
+  height: 50px;
+  width:210px;
+  color: #0AA873;
+  border: 1px solid #0AA873;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cancel-user-button:hover,.cancel-user-button:active {
+  background-color: #0AA873;
+  font-size: 24px;
+  height: 50px;
+  width:210px;
+  color: white;
+  border: 1px solid white;
+}

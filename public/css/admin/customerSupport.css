@@ -1,0 +1,92 @@
+.filter {
+  display: inline;
+}
+
+.dropdown {
+    background-color: #ffffff;
+    border-color: #333333;
+    font-size: 18px;
+    display: inline;
+}
+
+.dropdown-toggle {
+  background-color: #333333;
+  border-color: #ffffff;
+  color: #ffffff;
+  width: 150px;
+  font-size: 18px;
+}
+
+.dropdown-item {
+  font-size: 18px;
+}
+
+/* Button - Answer */
+.custom-button2 {
+  background-color: #0AA873;
+  border-color: #0AA873;
+  color: #ffffff;
+  font-size: 18px;
+  height: 40px;
+  width:120px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.custom-button2:hover {
+background-color: #ffffff;
+border-color: #0AA873;
+color: #0AA873;
+}
+
+/* Button - Delete */
+.custom-button3 {
+  background-color: #FF3A3A;
+  border-color: #FF3A3A;
+  color: #ffffff;
+  font-size: 18px;
+  height: 40px;
+  width:120px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.custom-button3:hover {
+background-color: #ffffff;
+border-color: #FF3A3A;
+color: #FF3A3A;
+}
+
+/* Content */
+table {
+ font-size: 16px;
+ width: fit-content;
+}
+
+/* banner  */
+.banner {
+  height: 200px;
+  background-image: url("../../../images/banner/banner2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 1px;
+}
+
+.logo {
+  height: 128px;
+  width: 128px;
+}
+
+.gj-mall {
+  font-size: 48px;
+  font-weight: bold; 
+  text-shadow: 3px 5px 3px #FFFFFF;
+}
+
+.sub-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 3px 5px 3px #FFFFFF;
+}

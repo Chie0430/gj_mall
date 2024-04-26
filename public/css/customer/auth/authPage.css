@@ -1,0 +1,33 @@
+/* login,register bg-img */
+.login-background-image, 
+.register-background-image {
+    background-image: url(/images/account/bgCustomer.svg);
+    /* background-size: cover; */
+    height: 100%;
+    /* background-position: center; */
+}
+
+/* Seller login,register bg-img */
+.seller-login-background-image {
+    background-image: url(/images/account/bgSeller.svg);
+    /* background-size: cover; */
+    height: 100%;
+    /* background-position: center; */
+}
+
+/* Admin login,register bg-img */
+.admin-login-background-image {
+    background-image: url(/images/account/bgAdmin.svg);
+    /* background-size: cover; */
+    height: 100%;
+    /* background-position: center; */
+}
+
+/* form-button */
+.btn-signIn, 
+.btn-register {
+    width: 400px;
+    height: 50px;
+    background-color: #333333;
+    border-color: #333333;
+}

@@ -1,0 +1,250 @@
+.image-md {
+    max-height: 150px;
+    height: auto;
+    width: 100%;
+}
+
+.image-delete {
+    max-height: 150px;
+    width:auto;
+}
+
+.image-num {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    background-color: #333333;
+    color: #FFFFFF;
+    z-index: 1;
+    padding: 5px 12px;
+    font-size: 12px;
+    opacity: 50%;
+    border-radius: 100%;
+}
+
+.plus-circle {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    color: #FFFFFF;
+    font-size: 64px;
+    background-color: #F2F2F2;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.plus-circle-overlay {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    color: #000;
+    font-size: 64px;
+    background-color: #F2F2F2;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 100%;
+    text-align: center;
+    opacity: 50%;
+}
+
+
+.pen-circle-overlay {
+    position: absolute;
+    top: 8%;
+    left: 85%;
+    color: #FFD700;
+    font-size: 12px;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.pen-trash-overlay {
+    position: absolute;
+    top: 15%;
+    left: 85%;
+    color: #FF3A3A;
+    font-size: 12px;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 1px 4px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+/* form text */
+label {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* form-button */
+
+/* Custom button styles */
+.custom-button-cancel {
+    background-color: #FFFFFF;
+    /* Your custom color */
+    color: #30567A;
+    /* Text color */
+    border-color: #30567A;
+    font-size: 24px;
+    height: 50px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: Hover styles */
+.custom-button-cancel:hover {
+    background-color: #30567A;
+    /* Your custom hover color */
+    color: #FFFFFF;
+}
+
+.custom-button-save {
+    background-color: #30567A;
+    /* Your custom color */
+    color: #FFFFFF;
+    /* Text color */
+    font-size: 24px;
+    height: 50px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: Hover styles */
+.custom-button-save:hover {
+    background-color: #FFFFFF;
+    /* Your custom hover color */
+    border-color: #30567A;
+    /* Border color on hover */
+    color: #30567A;
+}
+
+/* Custom button styles */
+.custom-edit-cancel {
+    background-color: #FFFFFF;
+    /* Your custom color */
+    color: #0AA873;
+    /* Text color */
+    border-color: #0AA873;
+    font-size: 24px;
+    height: 50px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: Hover styles */
+.custom-edit-cancel:hover {
+    background-color: #0AA873;
+    /* Your custom hover color */
+    color: #FFFFFF;
+}
+
+.custom-edit-update {
+    background-color: #0AA873;
+    /* Your custom color */
+    color: #FFFFFF;
+    /* Text color */
+    font-size: 24px;
+    height: 50px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: Hover styles */
+.custom-edit-update:hover {
+    background-color: #FFFFFF;
+    /* Your custom hover color */
+    border-color: #0AA873;
+    /* Border color on hover */
+    color: #0AA873;
+}
+
+/* Cancel Button - Delete Products Modal */
+.custom-delete-cancel {
+    background-color: #FFFFFF;
+    /* Your custom color */
+    color: #FF3A3A;
+    /* Text color */
+    border-color: #FF3A3A;
+    font-size: 24px;
+    height: 50px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+    height: 50px;
+    width: 210px;
+}
+
+.custom-delete-cancel:hover {
+    background-color: #FF3A3A;
+    /* Your custom hover color */
+    color: #FFFFFF;
+}
+
+/* Delete Button - Delete Products Modal */
+.custom-delete {
+    background-color: #FF3A3A;
+    /* Your custom color */
+    color: #FFFFFF;
+    /* Text color */
+    font-size: 24px;
+    height: 50px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+    height: 50px;
+    width: 210px;
+}
+.custom-delete:hover {
+    background-color: #FFFFFF;
+    /* Your custom hover color */
+    border-color: #FF3A3A;
+    /* Border color on hover */
+    color: #FF3A3A;
+}
+
+
+.modal-head {
+    background-color: #FF3A3A;
+    border-radius: 0;
+}
+
+.modal-foot {
+    background-color: #F2F2F2;
+    border-radius: 0;
+    border: none;
+}
+
+input[type=checkbox] {
+	width:			24px;
+	height:			24px;
+	-moz-transform:		scale(1.4);
+	-webkit-transform:	scale(1.4);
+	transform:		scale(1.4);
+}
+
+
+/* create images */
+.js-file {
+    font-size: small
+}
+
+.js-deleteBtn {
+    font-size: 0;
+    border: #FFFFFF 1px ;
+    background-color: #FF3A3A;
+    color: #FFFFFF;
+    border-radius: 2px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+    text-align: right;
+}
+
+.js-deleteBtn:hover {
+    background-color: #FFFFFF;
+    border-color: #FF3A3A;
+    color: #FF3A3A;
+}
+
+/* to overwrite the text */
+.js-deleteBtn:before {
+    font-size: 16px;
+    content:'Delete';
+}

@@ -1,0 +1,60 @@
+/* header part */
+.modal-header {
+  background-color: #0AA873;
+}
+/* header part */
+.modal-title {
+    font-size: 32px;
+}
+
+/* body part */
+.question {
+    font-size: 24px;
+}
+.inquiry-title {
+  font-size:18px;
+  font-weight: bold;
+}
+
+.inquiry-content {
+    font-size: 18px;
+}
+
+/* Complete Button  */
+.complete-answer-button {
+  background-color: #0AA873;
+  font-size: 24px;
+  width:210px;
+  height: 50px;
+  color: white;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .complete-answer-button:hover,.complete-answer-button:active {
+  background-color: white;
+  font-size: 24px;
+  width:210px;
+  height: 50px;
+  color: #0AA873;
+  border: 1px solid #0AA873;
+  }
+  
+  /* Cancel Button  */
+  .cancel-answer-button {
+  background-color: white;
+  font-size: 24px;
+  height: 50px;
+  width:210px;
+  color: #0AA873;
+  border: 1px solid #0AA873;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cancel-answer-button:hover,.cancel-answer-button:active {
+  background-color: #0AA873;
+  font-size: 24px;
+  height: 50px;
+  width:210px;
+  color: white;
+  border: 1px solid white;
+  }

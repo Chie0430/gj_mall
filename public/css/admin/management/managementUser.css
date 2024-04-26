@@ -1,0 +1,99 @@
+/* Content */
+table {
+    font-size: 16px;
+    width: fit-content;
+ }
+
+/* Custom button styles */
+.custom-button {
+    background-color: #30567A;
+    /* Your custom color */
+    color: #fff;
+    /* Text color */
+    border-color: #30567A;
+    /* Border color (optional) */
+    height: 40px;
+}
+
+/* Optional: Hover styles */
+.custom-button:hover {
+    background-color: #fff;
+    /* Your custom hover color */
+    border-color: #30567A;
+    /* Border color on hover */
+    color: #30567A;
+}
+
+.custom-button-cancel {
+    background-color: #FFFFFF;
+    /* Your custom color */
+    color: #30567A;
+    /* Text color */
+    border-color: #30567A;
+    font-weight:bold ;
+    font-size: 24px;
+    height: 50px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: Hover styles */
+.custom-button-cancel:hover {
+    background-color: #30567A;
+    /* Your custom hover color */
+    color: #FFFFFF;
+}
+
+.custom-button-save {
+    background-color: #30567A;
+    /* Your custom color */
+    color: #FFFFFF;
+    /* Text color */
+    font-size: 24px;
+    height: 50px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: Hover styles */
+.custom-button-save:hover {
+    background-color: #FFFFFF;
+    /* Your custom hover color */
+    border-color: #30567A;
+    /* Border color on hover */
+    color: #30567A;
+}
+
+/* Button - edit user */
+.edit-icon {
+    color: #0AA873;
+}
+
+/* Button - delete user */
+.delete-icon {
+    color: #FF3A3A;
+}
+
+/* banner  */
+.banner {
+    height: 200px;
+    background-image: url("../../../images/banner/banner5.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 1px;
+}
+
+.logo {
+    height: 128px;
+    width: 128px;
+}
+
+.gj-mall {
+    font-size: 48px;
+    font-weight: bold; 
+    text-shadow: 3px 5px 3px #FFFFFF;
+}
+
+.sub-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 3px 5px 3px #FFFFFF;
+}
